@@ -1,0 +1,69 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+:root {
+    --main-color: #0065FC;
+    --main-bg-color: #F2F2F2;
+    --filter-bg-color: #DEEBFF;
+}
+
+/* Header */
+
+.container_header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container_logo_booki {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 121px;
+    height: 79px;
+}
+
+.logo_booki {
+    width: 61px;
+    height: 19px;
+}
+
+.container_links {
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    width: 328px;
+    height: 35px;
+}
+
+.first_link,
+.second_link {
+    display: flex;
+    padding-top: 15px;
+}
+
+.first_link {
+    display: flex;
+    justify-content: center;
+    width: 112px;
+    height: 19px;
+}
+
+.second_link {
+    display: flex;
+    justify-content: center;
+    width: 69px;
+    height: 19px;
+}
+
+.container_first_link:hover,
+.container_second_link:hover {
+    border-top: 2px solid #0065FC;
+}
+
+* { outline: solid 1px red !important}
