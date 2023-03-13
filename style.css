@@ -7,6 +7,10 @@ a {
     color: black;
 }
 
+main {
+    margin-left: 50px;
+}
+
 :root {
     --main-color: #0065FC;
     --main-bg-color: #F2F2F2;
@@ -14,6 +18,8 @@ a {
 }
 
 /* Header */
+
+/* Logo + Liens cliquables */
 
 .container_header {
     display: flex;
@@ -66,4 +72,105 @@ a {
     border-top: 2px solid #0065FC;
 }
 
-* { outline: solid 1px red !important}
+/* Body */
+/* Titre + Contexte + Barre de recherche */
+
+.container_search {
+    display: flex;
+    width: 377px;
+    height: 49px;
+    border: 3px solid #F2F2F2;
+    border-radius: 15px;
+}
+
+.icon_search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 49px;
+    background-color: #F2F2F2;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.text_search {
+    width: 195px;
+    height: 49px;
+    border-width: 0px;
+}
+
+.text_search::placeholder {
+    text-align: center;
+    font-weight: 900;
+    color: black;
+}
+.button_search {
+    width: 132px;
+    height: 49px;
+    background-color: #0065FC;
+    color: white;
+    font-weight: bold;
+    border-radius: 0px 15px 15px 0px;
+    border: none;
+}
+
+/* Filtres */
+
+.container_filter {
+    display: flex;
+    gap: 15px;
+    width: 758px;
+    height: 50px;
+    margin-top: 35px;
+}
+
+.title_htwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.filter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    font-size: 17px;
+}
+.color_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0065FC;
+    margin-right: 12px;
+}
+
+.border_filter {
+    border: 2px solid #F2F2F2;
+    border-radius: 25px;
+}
+
+.filter:hover {
+    background-color: #DEEBFF;
+}
+
+/* Informations */
+
+.container_news {
+    display: flex;
+    align-items: center;
+    height: 24px;
+    gap: 10px;
+    margin-top: 35px;
+    font-size: 16px;
+}
+
+.icon_news {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    border: 1px solid #F2F2F2;
+    border-radius: 50px;
+}
+/* * { outline: solid 1px red !important} */

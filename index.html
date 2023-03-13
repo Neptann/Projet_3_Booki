@@ -4,9 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/d68c6765fd.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" />
     <title>Booki</title>
   </head>
+
   <body>
     <header>
       <nav class="container_header">
@@ -23,5 +25,42 @@
         </div>
       </nav>
     </header>
+    <main>
+      <section>
+        <h1 class="first_title">Trouver votre hébergement pour des vacances de rêve</h1>
+        <p class="second_title">En plein centre-ville ou en pleine nature</p>
+      </section>
+
+      <section class="container_search">
+        <form method="post" action="" enctype="multipart/form-data"></form>
+        <div class="icon_search"><i class="fa-solid fa-location-dot"></i></div>
+        <input class="text_search" type="text" placeholder="Marseille, France" />
+        <input class="button_search" type="submit" value="Rechercher" />
+      </section>
+
+      <section class="container_filter">
+        <h2 class="title_htwo">Filtres</h2>
+        <div class="border_filter filter">
+          <i class="fa-sharp fa-solid fa-money-bill-wave color_icon"></i>
+          Économique
+        </div>
+        <div class="border_filter filter">
+          <i class="fa-solid fa-child color_icon"></i>
+          Familliale
+        </div>
+        <div class="border_filter filter">
+          <i class="fa-solid fa-heart color_icon"></i>
+          Romantique
+        </div>
+        <div class="border_filter filter">
+          <i class="fa-solid fa-fire color_icon"></i>
+          Nos pépites
+        </div>
+      </section>
+      <section class="container_news">
+        <i class="fa-solid fa-info icon_news"></i>
+        <p>Plus de 500 logements sont disponibles dans cette ville</p>
+      </section>
+    </main>
   </body>
 </html>
